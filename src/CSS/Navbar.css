@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+.searchcontainer{
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+    padding:5px;
+}
+.input{
+    border:none;
+}
+.Wrapper{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+    align-items: center;
+}
+.left{
+    flex:1;
+    display:flex;
+    align-items: center;
+
+}
+.center{
+    flex:1;
+    text-align:center;
+}
+.logo{
+    font-weight:bold;
+}
+.Menuitem{
+    margin:0 10px;
+}
+.right{
+    flex:1;
+    justify-content:flex-end;
+    display:flex;
+}
+
